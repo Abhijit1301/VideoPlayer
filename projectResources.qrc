@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/qml/main.qml</file>
+        <file>assets/qml/VideoPlaybackWindow.qml</file>
+        <file>assets/icons/angle-double-left.png</file>
+        <file>assets/icons/angle-double-right.png</file>
+        <file>assets/icons/cross.png</file>
+        <file>assets/icons/play.png</file>
+        <file>assets/icons/play-rounded.png</file>
+        <file>assets/icons/rotate-right.png</file>
+        <file>assets/qml/IconButton.qml</file>
+        <file>assets/icons/pause.png</file>
+        <file>assets/qml/TextButton.qml</file>
+        <file>assets/qml/ProgressBar.qml</file>
+        <file>assets/icons/slider-grip.png</file>
+        <file>assets/icons/red-bar.png</file>
+        <file>assets/icons/white-bar.png</file>
+        <file>assets/icons/purple-box.png</file>
+        <file>assets/icons/green-box.png</file>
+        <file>assets/icons/full-screen.png</file>
+        <file>assets/icons/expand-to-full-screen.png</file>
+        <file>assets/icons/white-cross.png</file>
+        <file>assets/icons/re-play.png</file>
+    </qresource>
+</RCC>
