@@ -46,7 +46,6 @@ Rectangle {
 
         onStopped: {
             console.info("video playback has stopped")
-            playButton.visible = false
             replayButton.visible = true
         }
     }
@@ -57,7 +56,7 @@ Rectangle {
         isExpanded: false
         iconSource: "qrc:///assets/icons/pause.png"
         anchors.centerIn: parent
-        visible: videoPlaybackWindowMouseArea.containsMouse ? true : false
+        visible: videoPlaybackWindowMouseArea.containsMouse && !replayButton.visible ? true : false
 
         onButtonClicked: {
             if (videoPlayer.playbackState === MediaPlayer.PlayingState) {
@@ -78,7 +77,6 @@ Rectangle {
 
         onButtonClicked: {
             replayButton.visible = false
-            playButton.visible = true
             resumePlayback()
         }
     }
